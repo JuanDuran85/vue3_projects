@@ -1,0 +1,29 @@
+$primary-color: #538f74; // Ejemplo de una variable SCSS
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: $primary-color;
+}
+
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+button {
+  background-color: $primary-color;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
